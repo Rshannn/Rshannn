@@ -24,8 +24,8 @@ A **two-person course project** comparing five churn classifiers and evaluating 
 
 ## Research & Experience
 
-**[Research role / title] — [Lab or institution]** · [Start date–End date / Present]  
-[Add a brief description of your role in the earstim research project, including your responsibilities and contribution.]
+**Research Assistant — University of Southern California, Emotion & Cognition Lab** · May 2026-Present
+Developed and validated a modular R-based data extraction and quality-control pipeline for a taVNS/sham ear-stimulation study using PsychoPy data. Produced standardized participant-, session-, block-, and trial-level datasets covering demographics, medications, blinding, stimulation ratings, side effects, and N-back performance. Resolved restarted and fragmented sessions, integrated experimental metadata, implemented documented corrections and exclusions, created audit and missing-data reports, and verified edge cases against raw study files and lab records to ensure accuracy and reproducibility.
 
 **Research Assistant — Fudan University, Center for Socioeconomic Data Analysis** · Summer 2024  
 Supported research on labor market outcomes and educational mobility through survey data cleaning, dataset integration, exploratory analysis, and OLS/logit modeling in Python and Stata.
@@ -42,3 +42,4 @@ Worked on survey analysis, employee retention modeling, data integration, dashbo
 ## Contact
 
 [Email](mailto:richardsdyw@gmail.com)
+richardsdyw@gmail.com
