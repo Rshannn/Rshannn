@@ -1,43 +1,39 @@
 # Yuwen (Richard) Shan
 
-I'm an undergraduate studying Data Science and Economics at the University of Southern California, with interests in **applied statistics, statistical learning, and interpretable modeling**.
+I am an undergraduate studying Data Science and Economics at the University of Southern California, with a strong foundation in applied statistics and an interest in interpretable modeling.
 
-My research, internship, and course projects involve preparing data, applying statistical methods, and evaluating predictive models. I'm interested in how these methods help us understand economic and behavioral questions, and how data quality and modeling assumptions affect the conclusions we can draw.
+My work focuses on a central question in data science: how can we build statistical models that are not only predictive but also transparent, verifiable, and trustworthy enough for decision-makers to act upon? My coursework, research, and internship experiences reflect this continuous pursuit - from extracting interpretable semantic signals in high-dimensional text data, to ensuring strict data quality in noisy physiological experiments, and finally applying these insights to real-world business decisions.
 
 ## Selected Projects
 
-### [PsychoPy Research Data Extraction](https://github.com/Rshannn/earstim_data_extraction)
-
-A modular **R** pipeline that transforms wide PsychoPy exports into structured session, block, and trial tables. The code includes input validation, experimental restart handling, guarded cell-level corrections, and audit records for tracing processing decisions.
-
-*Public code showcase. Research data and populated study configuration are withheld; this public release has not been validated as a standalone runnable demonstration.*
-
 ### [Political Language Polarization in Congress](https://github.com/Rshannn/Political-Language-Polarization-in-Congress)
 
-An analysis of partisan language in congressional speech using the Gentzkow, Shapiro, and Taddy Congressional Record dataset. The project combines descriptive bigram analysis with **L1-regularized logistic regression** to classify party identity and examine predictive phrases. The repository includes processed data, scripts, figures, and a written report.
+An analysis of partisan language in congressional speech using the Gentzkow, Shapiro, and Taddy dataset. Combined descriptive bigram analysis with L1-regularized logistic regression to classify party identity. Through L1 sparsity induction, I extracted interpretable semantic signals, demonstrating how mathematical constraints can be traded for human-interpretable logical attributions.
 
-### [Customer Churn Classification & Bitcoin Forecasting](https://github.com/Rshannn/churn-and-bitcoin-ml)
+### [PsychoPy Research Data Extraction & QC Pipeline](https://github.com/Rshannn/earstim_data_extraction)
 
-A **two-person course project** comparing five churn classifiers and evaluating a Bitcoin LSTM against a persistence baseline. It includes preprocessing pipelines, model comparisons, saved-model inference, and regression checks. The persistence baseline outperformed the LSTM on the reported historical test, providing a useful example of why model complexity needs to be evaluated against simpler alternatives.
+A modular R pipeline that transforms wide PsychoPy exports into structured session, block, and trial tables. The code enforces input validation, handles experimental restarts, implements guarded cell-level corrections, and creates audit records for tracing processing decisions—ensuring statistical rigor in high-noise physiological data.
 
-*Both team members jointly completed the project development; the Telco implementation builds on a course-provided starter script.*
+### [Customer Churn Classification & Time-Series Diagnostics](https://github.com/Rshannn/churn-and-bitcoin-ml)
+
+Two applied ML workflows: comparing five classifiers for customer churn, and evaluating an LSTM against a persistence baseline for Bitcoin forecasting. The persistence baseline outperformed the LSTM on the reported historical test, providing a practical example of why model complexity needs to be rigorously evaluated against simpler alternatives.
 
 ## Research & Experience
 
-**Research Assistant — University of Southern California, Emotion & Cognition Lab** · May 2026-Present
-Developed and validated a modular R-based data extraction and quality-control pipeline for a taVNS/sham ear-stimulation study using PsychoPy data. Produced standardized participant-, session-, block-, and trial-level datasets covering demographics, medications, blinding, stimulation ratings, side effects, and N-back performance. Resolved restarted and fragmented sessions, integrated experimental metadata, implemented documented corrections and exclusions, created audit and missing-data reports, and verified edge cases against raw study files and lab records to ensure accuracy and reproducibility.
+**Political Language Polarization in Congress**
+An analysis of partisan language using the Gentzkow et al. dataset. Applied L1-regularized logistic regression to induce sparsity, demonstrating how mathematical constraints can be traded for human-interpretable logical attributions.
 
-**Research Assistant — Fudan University, Center for Socioeconomic Data Analysis** · Summer 2024  
-Supported research on labor market outcomes and educational mobility through survey data cleaning, dataset integration, exploratory analysis, and OLS/logit modeling in Python and Stata.
+**PsychoPy Research Data Extraction & QC Pipeline**
+A modular R pipeline that transforms wide PsychoPy exports into structured tables. Enforces input validation, restart handling, and creates audit records for tracing processing decisions - ensuring statistical rigor in high-noise physiological data.
 
-**Data Analysis Intern — Porsche Consulting** · Summer 2025  
-Worked on survey analysis, employee retention modeling, data integration, dashboards, and reporting automation to support business analysis.
+**Customer Churn Classification & Time-Series Diagnostics**
+Two applied ML workflows comparing classifiers and evaluating an LSTM against a persistence baseline. Highlights the critical importance of baseline comparisons and error analysis in high-noise environments.
 
 ## Tools & Methods
 
-- **Languages:** Python, R, SQL, Stata
+- **Languages:** Python (Pandas, NumPy, scikit-learn, TensorFlow/Keras), R (data.table, ggplot2), SQL, Stata
 - **Libraries:** pandas, NumPy, scikit-learn, TensorFlow/Keras, data.table, Matplotlib, Seaborn
-- **Methods:** regression, classification, exploratory data analysis, text analysis, and time-series model evaluation
+- **Methods:** Regression analysis (OLS, Logistic, Lasso), classification, text mining, time-series model evaluation, data quality control (QC) and auditing
 
 ## Contact
 
