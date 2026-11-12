@@ -37,5 +37,5 @@ Two applied ML workflows comparing classifiers and evaluating an LSTM against a 
 
 ## Contact
 
-[Email](mailto:richardsdyw@gmail.com)
-richardsdyw@gmail.com
+Email: richardsdyw@gmail.com
+Mobile: 585-520-7976
