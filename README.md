@@ -20,13 +20,13 @@ Two applied ML workflows: comparing five classifiers for customer churn, and eva
 
 ## Research & Experience
 
-**Political Language Polarization in Congress**
+**Political Language Polarization in Congress:**
 An analysis of partisan language using the Gentzkow et al. dataset. Applied L1-regularized logistic regression to induce sparsity, demonstrating how mathematical constraints can be traded for human-interpretable logical attributions.
 
-**PsychoPy Research Data Extraction & QC Pipeline**
+**PsychoPy Research Data Extraction & QC Pipeline:**
 A modular R pipeline that transforms wide PsychoPy exports into structured tables. Enforces input validation, restart handling, and creates audit records for tracing processing decisions - ensuring statistical rigor in high-noise physiological data.
 
-**Customer Churn Classification & Time-Series Diagnostics**
+**Customer Churn Classification & Time-Series Diagnostics:**
 Two applied ML workflows comparing classifiers and evaluating an LSTM against a persistence baseline. Highlights the critical importance of baseline comparisons and error analysis in high-noise environments.
 
 ## Tools & Methods
